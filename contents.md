@@ -245,7 +245,8 @@ We can apply reductions along axes, paths and non-trivial manifolds.
 
 # Data Storytelling
 
-We have to span the 
+We have to span the entire process from data **acquisition**, to **analysis**,
+to **application** to develop understandable information for stakeholders.
 
 ---
 
