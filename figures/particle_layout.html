@@ -123,7 +123,7 @@
             var t = Promise.resolve();
             /* If I made an interpolator that smoothly went from one value all
                the way to the end, this would look a lot nicer.  */
-            d3.range(10).forEach( () => 
+            d3.range(10).forEach( () => {
                 particleHighlights.forEach( (ind, i) => {
                     t = t.then( () => {
                         svg.selectAll("path")
@@ -142,7 +142,7 @@
                             .attr("y2", d => imageY(data[d].particle_position_y));
                         return d3.transition().duration(1000).end();
                     });
-                });
+                })
             });
             return data;
         }
