@@ -14,8 +14,6 @@
         const svg = d3
             .select("#vis-output00080")
             .append("svg")
-            .attr("width", 1024)
-            .attr("height", 768)
             .attr("viewBox", [0, 0, 1024, 768]);
 
         // set up a promise
@@ -43,8 +41,7 @@
 
         function drawDisk(data) {
             totalRows = Math.ceil(data.projection.length / Nrow);
-            svg.append("g").attr("id", "rectCollection")
-                .selectAll("rect")
+            svg.selectAll("rect")
                 .data(data.projection)
                 .enter()
                 .append("rect")
@@ -99,7 +96,8 @@
         }
 
         function fadeOutImage(data) {
-            svg.selectAll("g#rectCollection")
+            svg.selectAll("rect")
+                .transition()
                 .duration(2000)
                 .style("fill-opacity", 0.0);
         }

@@ -17,6 +17,56 @@ My Background:
 
 ---
 
+## Cartoon History of the Universe
+
+<div class="multiCol">
+<div class="col">
+<div class="fig-container" data-style="height: 600px;" data-file="figures/collapse_heating.html" data-markdown=true>
+</div>
+</div>
+<div class="col" data-markdown=true>
+<p class="fragment" data-fragment-index="0">After recombination, the universe was in a nearly-but-not-totally homogeneous state, seeded with instabilities and with a few residual electrons.</p>
+<div class="fragment" data-fragment-index="1">
+<p>Early-on, dark matter clumps collected and formed "halos," drawing in baryonic material.</p>
+<p>This process converted potential energy into thermal energy, heating the baryonic matter, which shed the thermal energy through radiative processes.</p>
+</div>
+<p class="fragment" data-fragment-index="2">Eventually, this cloud becomes fully-molecular through the three-body interaction and forms an accretion disk.</p>
+</div>
+</div>
+
+---
+
+## Molecular Hydrogen
+
+<div class="multiCol">
+<div class="col" data-markdown=true>
+<div class="fig-container" data-style="height: 400px;" data-file="figures/three_body.html" data-markdown=true>
+</div>
+<div class="fragment" data-fragment-index="1">
+$$
+\begin{align}
+\mathrm{H} + \mathrm{H} + \mathrm{H} & \rightarrow \mathrm{H}_2 + \mathrm{H} \\
+\mathrm{H}_2 + \mathrm{H} & \rightarrow \mathrm{H} + \mathrm{H} + \mathrm{H} \\
+\mathrm{H}_2 + \mathrm{H} + \mathrm{H} & \rightarrow \mathrm{H}_2 + \mathrm{H}_2 \\
+\mathrm{H}_2 + \mathrm{H}_2 & \rightarrow \mathrm{H} + \mathrm{H} + \mathrm{H}_2
+\end{align}
+$$
+</div>
+</div>
+<div class="col" data-markdown=true>
+<p data-markdown=true>In an environment absent heavy elements, the mechanisms by which gas can cool are quite limited.  The principal coolant is molecular hydrogen, which forms first via electron association ($\mathrm{H}^{-}$) and then through three body interactions.</p>
+<p class="fragment" data-markdown=true>
+This formation channel results in molecular hydrogen that begins in an excited state.
+</p>
+<p class="fragment" data-markdown=true>
+This molecule then quickly de-excites through collisions, resulting in a net heating of the gas by roughly 4.48 eV per molecule.
+</p>
+</div>
+</div>
+
+
+---
+
 <div style="width: 640px; padding-top:5em;" data-markdown=true>
 <h1>We tell lies to visualize.</h1>
 
@@ -242,6 +292,28 @@ We can apply reductions along axes, paths and non-trivial manifolds.
 <div class="fig-container" data-file="figures/cosmology.html" data-preload data-style="width: 900px;">
 
 ---
+
+# Volumetric Analysis Platform
+
+<div class="multiCol">
+<div class="col">
+<img src="images/yt_logo.svg">
+</div>
+<div class="col">
+The `yt` platform for analysis is a mechanism for abstracting the underlying
+operations and building reproducible analysis procedures, independent of data
+representation and distribution.
+
+[yt-project.org](https://yt-project.org/)
+
+<p class="fragment">
+The implementation of a physically-aware grammar of analysis of this data will
+foster better connections between machine learning models and data from the
+natural sciences.
+</p>
+
+</div>
+</div>
 
 # Data Storytelling
 
